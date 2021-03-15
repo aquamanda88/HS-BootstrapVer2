@@ -1,0 +1,23 @@
+$primary: #3F5D45;
+$secondary: #8DA291;
+$warning: #FFE180;
+$light: #EAF0ED;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25), //4px
+    2: ($spacer * .5), //8px
+    3: ($spacer * 1.33), //12px
+    4: $spacer, //16px
+    5: ($spacer * 1.25), //20px
+    6: ($spacer * 1.5), //24px
+    7: ($spacer * 2), //32px
+    8: ($spacer * 3), //48px
+    9: ($spacer * 3.75),  //60px
+    10: ($spacer * 5) //80px
+  ),
+  $spacers
+);
