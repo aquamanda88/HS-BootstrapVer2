@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首頁｜Sweetaste</title>    
+    <link rel="icon" href="img/logo.ico" type="img/x-icon"/>
+    <meta name='description' content="主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均有業界開發經驗，讓學員學習業界主流的開發方法。" />
+    <meta property="og:title" content="六角學院甜點電商" />
+    <meta property="og:description" content="主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均有業界開發經驗，讓學員學習業界主流的開發方法。">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bootstrap.hexschool.com/" />
+    <meta property="og:image" content="https://pbs.twimg.com/profile_images/1139485184464523264/Ul78v4sv_400x400.png" />
+    <link href="https://s2.aconvert.com/convert/p3r68-cdx67/a1yrt-4cw5i-001.ico" rel="apple-touch-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light headerLinks justify-content-around justify-content-lg-between align-items-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h1 class="m-0">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo-sm d-block d-lg-none" src="img/logotype-lg-dark.svg" alt="六角甜點 logo">
+                    <img class="logo-lg d-none d-lg-block" src="img/logo-all-dark.svg" alt="六角甜點 logo">
+                </a>
+            </h1>
+            <div class="cartBtn d-block d-lg-none">
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart text-primary"></i>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="fw-500 navbar-nav">
+                    <li class="nav-item active">
+                        <a class="menuItem" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menuItem" href="product.html">甜點</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="menuItem" href="login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cartBtn d-none d-lg-block">
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart text-primary"></i>
+                </a>
+            </div>
+        </nav>
+        <div class="bannerBlock" data-aos="fade-down">
+            <div class="banner imgArea" style="background-image: url(https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68ab0db4ee79bdce92722b31112b&auto=format&fit=crop&w=2725&q=80);"></div>
+        </div>
+        <div class="priLinks d-flex justify-content-center">
+            <ul class="row">
+                <li class="priLinks-item imgArea col-4">
+                    <a class="dessertoftheday" href="#">
+                        <span class="vertical-lr">本日精選</span>
+                        <div class="mask bg-warning"></div>
+                        <div class="priLinks-itemImg imgArea" style="background-image: url(https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73ed228f25bdefd2291c242f6d390fca&auto=format&fit=crop&w=600&q=60);"></div>
+                    </a>
+                </li>
+                <li class="priLinks-item imgArea sideBorder col-4">
+                    <a class="popularItem" href="#">
+                        <span class="text-light vertical-lr">人氣推薦</span>
+                        <div class="mask bg-primary"></div>
+                        <div class="priLinks-itemImg imgArea" style="background-image: url(https://images.unsplash.com/photo-1504114133367-631ecd3db3ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b75e93d90cd88467ae5715becb431a26&auto=format&fit=crop&w=600&q=60);"></div>
+                    </a>
+                </li>
+                <li class="priLinks-item imgArea col-4">
+                    <a class="newItem" href="#">
+                        <span class="text-light vertical-lr">新品上市</span>
+                        <div class="mask bg-primary"></div>
+                        <div class="priLinks-itemImg imgArea" style="background-image: url(https://images.unsplash.com/photo-1499638472904-ea5c6178a300?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c27da96f7150c96a92ba8a53c8644761&auto=format&fit=crop&w=600&q=60);"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <ul class="sloganArea-list mb-lg-10" data-aos="fade-right">
+        <li class="sloganArea-item">
+            <div class="sloganArea">
+                <img class="d-block d-lg-none" src="img/sm-row-whyDo.svg">
+            </div>
+            <div class="container-fluid bg-light px-sm-0">
+                <div class="container mb-lg-9">
+                    <div class="row flex-column flex-md-row justify-content-lg-between align-items-lg-center">
+                        <div class="imgArea d-block d-lg-none" style="background-image: url(https://images.unsplash.com/photo-1519730722595-a5ff788dea4d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2712a33fe9b13532f0682ac4e1e749b8&auto=format&fit=crop&w=600&q=60);"></div>
+                        <div class="d-none d-lg-block sloganImg-PC whyDo-img imgArea"></div>
+                        <div class="textArea">
+                            <p class="text-secondary">青山依舊在，幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                            <p class="text-secondary mb-0">是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                        </div>
+                        <img class="whyDo-slogan d-none d-lg-block" src="img/sm-column-whyDo.svg">
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="sloganArea-item mb-lg-10" data-aos="fade-left">
+            <div class="sloganArea">
+                <img class="d-block d-lg-none" src="img/sm-row-whyEat.svg">
+            </div>
+            <div class="container-fluid bg-light px-sm-0">
+                <div class="container">
+                    <div class="row flex-column flex-md-row justify-content-lg-between align-items-lg-center flex-lg-row-reverse">
+                        <div class="imgArea d-block d-lg-none" style="background-image: url(https://images.unsplash.com/photo-1501432781167-c0ccfd492297?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=621c4e9986fba1c4514dfdc30e095bd2&auto=format&fit=crop&w=600&q=60);"></div>
+                        <div class="d-none d-lg-block sloganImg-PC whyEat-img imgArea"></div>
+                        <img class="whyEat-slogan d-none d-lg-block" src="img/sm-column-whyEat.svg">
+                        <div class="textArea">
+                            <p class="text-secondary">青山依舊在，幾度夕陽紅。慣看秋月春風。一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                            <p class="text-secondary mb-0">是非成敗轉頭空，青山依舊在，幾度夕陽紅。白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="sloganArea-item" data-aos="flip-left">
+            <div class="sloganArea d-flex justify-content-lg-center">
+                <img class="d-block d-lg-none" src="img/sm-row-noReason.svg">
+                <img class="noReason-slogan d-none d-lg-block" src="img/sm-column-noReason.svg">
+            </div>
+        </li>
+    </ul>
+    <div class="container pb-9">
+        <div class="row justify-content-center">
+            <div class="card-deck">
+                <div class="card rounded-0">
+                <div class="labelItems imgArea card-img-top" style="background-image: url(https://images.unsplash.com/photo-1514517220017-8ce97a34a7b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7c376ffa487bcd258df29dc881b10703&auto=format&fit=crop&w=700&q=60); height:315px;">
+                    <span class="todayChoice vertical-lr bg-primary text-light lh-20">本日精選</span>
+                    <a href="#"><i class="heartBtn far fa-heart text-primary hvr-pulse-shrink"></i></a>
+                </div>
+                <div class="proNamenPrice d-flex card-body">
+                    <div class="proName d-flex align-items-center">
+                        <h3 class="fz-s lh-20 mb-0">焦糖馬卡龍</h3>
+                    </div>
+                    <div class="proPrice">
+                        <span class="fz-s lh-24">NT$ 450</span>
+                    </div>
+                </div>
+                <button class="addCart btn btn-light text-primary fz-s lh-24 rounded-0">加入購物車</button>
+                </div>
+                <div class="card rounded-0">
+                <div class="labelItems imgArea card-img-top" style="background-image: url(https://images.unsplash.com/photo-1525203135335-74d272fc8d9c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=61b27d2cefd0dd094b5439f897b43bb7&auto=format&fit=crop&w=700&q=60); height:315px;">
+                    <span class="todayChoice vertical-lr bg-primary text-light lh-20">本日精選</span>
+                    <a href="#"><i class="heartBtn far fa-heart text-primary hvr-pulse-shrink"></i></a>
+                </div>
+                <div class="proNamenPrice d-flex card-body">
+                    <div class="proName d-flex align-items-center">
+                        <h3 class="fz-s lh-20 mb-0">焦糖馬卡龍</h3>
+                    </div>
+                    <div class="proPrice">
+                        <span class="fz-s lh-24">NT$ 450</span>
+                    </div>
+                </div>
+                <button class="addCart btn btn-light text-primary fz-s lh-24 rounded-0">加入購物車</button>
+                </div>
+                <div class="card rounded-0">
+                <div class="labelItems imgArea card-img-top" style="background-image: url(https://images.unsplash.com/photo-1504473089979-b1c4993a9653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9db69b72e1f7d1b4e5c81cee531108ff&auto=format&fit=crop&w=700&q=60); height:315px;">
+                    <span class="todayChoice vertical-lr bg-primary text-light lh-20">本日精選</span>
+                    <a href="#"><i class="heartBtn far fa-heart text-primary hvr-pulse-shrink"></i></a>
+                </div>
+                <div class="proNamenPrice d-flex card-body">
+                    <div class="proName d-flex align-items-center">
+                        <h3 class="fz-s lh-20 mb-0">焦糖馬卡龍</h3>
+                    </div>
+                    <div class="proPrice">
+                        <span class="fz-s lh-24">NT$ 450</span>
+                    </div>
+                </div>
+                <button class="addCart btn btn-light text-primary fz-s lh-24 rounded-0">加入購物車</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <section class="contactEmail bg-primary d-flex flex-column align-items-center flex-lg-row justify-content-lg-around">
+            <div class="emailArea-header d-flex align-items-center">
+                <img class="logo-light mr-5" src="img/logo-light.svg">
+                <h3 class="text-light fz-m lh-30 fw-300 mb-0">訂閱你我的甜蜜郵件</h3>
+            </div>
+            <div class="emailGroup input-group">
+                <i class="fas fa-envelope fz-m"></i>
+                <input type="email" class="emailInput form-control rounded-0 bg-light">
+                <div class="input-group-append">
+                  <button class="emailBtn btn btn-warning rounded-0" type="button" id="button-addon2">
+                    <i class="fas fa-arrow-right text-primary fz-m"></i>
+                  </button>
+                </div>
+            </div>
+        </section>
+        <section class="contactInfo bg-light d-flex justify-content-around">
+            <div class="asideInfo">
+                <a href="index.html"><img class="footerLogo" src="img/logotype-lg-dark.svg" alt="logo"></a>
+                <ul class="contactList">
+                    <li><a href="tel:+0712345678">07-1234-5678</a></li>
+                    <li><a href="mailto:sweetaste@email.com">sweetaste@email.com</a></li>
+                    <li>800 高雄市新興區幸福路 520 號</li>
+                </ul>
+                <ul class="socialMedia-links d-flex">
+                    <li class="mr-2">
+                        <a href="#">
+                            <img class="lineIcon" src="img/ic-line@.svg" alt="lineIcon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="facebookIcon" src="img/ic-facebook.svg" alt="facebookIcon">
+                        </a>
+                    </li>
+                </ul>
+                <p class="rightTitle-Mobie mb-0">© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+            <div class="sloganInfo d-flex flex-column justify-content-between">
+                <img class="sloganTitle ml-auto" src="img/sm-goodday.svg" alt="goodday">
+                <p class="rightTitle-PC mb-0">© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+        </section>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
